@@ -5,12 +5,5 @@ module.exports = {
 		options: {
 			interrupt: true,
 		},
-	},
-	js: {
-		files: 'app/js/**/*.js',
-		tasks: ['jshint', 'browserify:dev'],
-		options: {
-			interrupt: true,
-		},
-	},
+	}
 };

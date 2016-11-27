@@ -1,5 +1,4 @@
-var module1 = (function() {
-
+function module1() {
 	function sayHello() {
 		console.log("Hi!I'm module1");
 	}
@@ -9,6 +8,6 @@ var module1 = (function() {
 	}
 
 	return ret;
-})();
+}
 
 module.exports = module1;
