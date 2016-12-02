@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 	// By default, lint and run all tests.
 	grunt.registerTask('default', ['jshint']);
 	//dev task - for local debug
-	grunt.registerTask('dev', ['watch']);
+	grunt.registerTask('dev', ['watch', 'browserify:dev']);
 
 	grunt.registerTask('deploy', ['sass:deploy', 'browserify:deploy', 'copy']);
 };
